@@ -1,0 +1,58 @@
+Welcome to Git (version 1.8.0-preview20121022)
+
+
+Run 'git help git' to display the help index.
+Run 'git help <command>' to display help for specific commands.
+
+jinguo@JINGUO-PC ~
+$ cd d:
+
+jinguo@JINGUO-PC /d
+$ cd android_git_workspace/1502H/1502h_pro
+
+jinguo@JINGUO-PC /d/android_git_workspace/1502H/1502h_pro (master)
+$
+
+jinguo@JINGUO-PC /d/android_git_workspace/1502H/1502h_pro (master)
+$ cat hehe.txt
+this my new txt
+print("branch code");
+print("branch code1");
+print("branch code2");
+print("branch code master");
+
+
+jinguo@JINGUO-PC /d/android_git_workspace/1502H/1502h_pro (master)
+$ git add hehe.txt
+
+jinguo@JINGUO-PC /d/android_git_workspace/1502H/1502h_pro (master)
+$ git commit -m "master commit"
+[master 8ff0a2e] master commit
+ 1 file changed, 1 insertion(+)
+
+jinguo@JINGUO-PC /d/android_git_workspace/1502H/1502h_pro (master)
+$ git merge dev
+Auto-merging hehe.txt
+CONFLICT (content): Merge conflict in hehe.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+jinguo@JINGUO-PC /d/android_git_workspace/1502H/1502h_pro (master|MERGING)
+$ git add hehe.txt
+
+jinguo@JINGUO-PC /d/android_git_workspace/1502H/1502h_pro (master|MERGING)
+$ git commit -m "final commit"
+[master 1e56ddf] final commit
+
+jinguo@JINGUO-PC /d/android_git_workspace/1502H/1502h_pro (master)
+$ cat hehe.txt
+this my new txt
+print("branch code");
+print("branch code1");
+print("branch code2");
+print("branch code master");
+print("branch code3");
+
+
+
+jinguo@JINGUO-PC /d/android_git_workspace/1502H/1502h_pro (master)
+$

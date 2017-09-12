@@ -1,0 +1,5 @@
+1、将家里本地的id_rsa.pub添加到github的SSH Keys中。
+
+这里不是添加的方法，因为应该都会。若真有不会的，可以到你github账户设置中去找找，很容易的。
+
+2、git clone git@github.com:zhanghaiz/sample_app.git
